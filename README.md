@@ -42,4 +42,131 @@
     </div>
   </div>
 </body>
-</html>
+</html> 
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  max-width: 900px;
+  width: 100%;
+}
+
+.phone-image img {
+  width: 400px;
+  height: auto;
+}
+
+.login-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-box {
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  padding: 40px;
+  margin-top: 20px;
+  text-align: center;
+  width: 350px;
+}
+
+.login-box h1 {
+  font-family: 'Billabong', cursive;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  background: #fafafa;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #3897f0;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.divider {
+  margin: 20px 0;
+  font-size: 14px;
+  color: #8e8e8e;
+  position: relative;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 1px;
+  background: #dbdbdb;
+  top: 50%;
+}
+
+.divider::before {
+  left: 0;
+}
+
+.divider::after {
+  right: 0;
+}
+
+.fb-login {
+  background: none;
+  color: #385185;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.signup-box {
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  padding: 20px;
+  margin-top: 10px;
+  text-align: center;
+  width: 350px;
+}
+
+.signup-box a {
+  color: #3897f0;
+  text-decoration: none;
+}
+
+.app-links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.store-buttons img {
+  height: 40px;
+  margin: 5px;
+}
+
